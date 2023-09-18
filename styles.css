@@ -1473,5 +1473,25 @@ blockquote {
   margin: 5px 0 30px !important;
   border-left: 5px solid #2ea3f2 !important;
   padding-left: 20px !important;
+  padding-right: 20px !important;
+  /* background-color: rgb(200, 200, 200) !important; */
+  width: 100% !important;
   /* font-style: italic !important; */
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.totalpoll-buttons-vote {
+  color: white !important;
+}
+
+.totalpoll-buttons-reset {
+  color: white !important;
+  background-color: rgb(149, 24, 32) !important;
 }
