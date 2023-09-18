@@ -1,0 +1,1468 @@
+body {
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  /* font-family: "Helvetica Neue"; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes votesBar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@-moz-keyframes votesBar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@-o-keyframes votesBar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes votesBar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"] {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-align: inherit;
+  box-shadow: none;
+  text-shadow: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  * {
+  box-sizing: border-box;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  div,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  span,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  applet,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  object,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  iframe,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h1,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h2,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h3,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h4,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h5,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h6,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  p,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  pre,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  a,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  abbr,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  acronym,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  address,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  big,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  cite,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  code,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  del,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dfn,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  em,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  font,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  img,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ins,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  kbd,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  q,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  s,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  samp,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  small,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  strike,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  strong,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  sub,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  sup,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  tt,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  var,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  b,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  i,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  center,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dl,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dt,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dd,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ol,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  li,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  fieldset,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  form,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  label,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  legend,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  table,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  caption,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  tbody,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  tfoot,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  thead,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  tr,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  th,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  td,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  article,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  aside,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  audio,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  canvas,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  details,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  figcaption,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  figure,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  footer,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  header,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  hgroup,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  mark,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  menu,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  meter,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  nav,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  output,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  progress,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  section,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  summary,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  time,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  video {
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-shadow: unset;
+  box-shadow: unset;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  article,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  aside,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dialog,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  figure,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  footer,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  header,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  hgroup,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  nav,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  section,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote {
+  display: block;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ol {
+  list-style: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  q {
+  quotes: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote:before,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote:after,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  q:before,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  q:after {
+  content: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ins {
+  text-decoration: underline;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  del {
+  text-decoration: line-through;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  mark {
+  background: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  abbr[title],
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  input[type="submit"],
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  input[type="button"],
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  button {
+  margin: 0;
+  padding: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  input,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  select,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  img {
+  vertical-align: middle;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  video,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  audio {
+  vertical-align: bottom;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  img {
+  max-width: 100%;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  li {
+  list-style: none inside;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul:before,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  li:before,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul:after,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  li:after {
+  display: none;
+  content: "";
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h1 {
+  font-size: 138.5%;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h2 {
+  font-size: 123.1%;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h3 {
+  font-size: 108%;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h1,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h2,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h3 {
+  margin: 1em 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h1,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h2,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h3,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h4,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h5,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  h6,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  strong {
+  font-weight: bold;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  abbr,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  acronym {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  em {
+  font-style: italic;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  blockquote,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ol,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dl {
+  margin: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ol,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dl {
+  margin-left: 2em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ol {
+  list-style: decimal outside;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  ul {
+  list-style: disc outside;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  dd {
+  margin-left: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  th,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  td {
+  border: 1px solid #000;
+  padding: 0.5em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  th {
+  font-weight: bold;
+  text-align: center;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  caption {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  p,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  fieldset,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  table,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  pre {
+  margin-bottom: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  a {
+  color: #1a5283;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  [disabled] {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-container {
+  margin: auto;
+  max-width: 95%;
+  padding-top: ;
+  padding-right: ;
+  padding-bottom: ;
+  padding-left: ;
+  background: unset;
+  border-color: unset;
+  border-width: ;
+  border-style: ;
+  border-radius: 15;
+  color: #333333;
+  box-shadow: ;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 calc(-1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-column-full {
+  padding: 0 calc(1em / 2);
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+    .totalpoll-column-full {
+    width: 100%;
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-column-half {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+    .totalpoll-column-half {
+    width: 50%;
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-column-third {
+  padding: 0 calc(1em / 2);
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+    .totalpoll-column-third {
+    width: 33.3333333333%;
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-custom-fields {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: 1em;
+  padding-right: unset;
+  padding-bottom: 1em;
+  padding-left: unset;
+  background: inherit;
+  color: inherit;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-custom-fields:empty {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 calc(-1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-page:empty {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-hidden-fields {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field {
+  padding: 0 calc(1em / 2);
+  margin-bottom: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-label {
+  display: block;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
+  color: inherit;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-input {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: unset;
+  background: #ffffff;
+  color: #333333;
+  border-color: #dddddd;
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.05);
+  border-radius: ;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-input:hover {
+  background: #ffffff;
+  color: #333333;
+  border-color: #aaaaaa;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-input:focus {
+  outline: none;
+  background: #0c71c3;
+  color: #333333;
+  border-color: #1a5283;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-input[type="checkbox"],
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-form-field-input[type="checkbox"],
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-form-field-input[type="radio"] {
+  margin-right: calc(1em / 2);
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-form-field-input[type="checkbox"],
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-form-field-input[type="radio"] {
+  margin-left: calc(1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-errors {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  background: transparent;
+  color: #f44336;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-errors:empty {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-radio
+  .totalpoll-form-field-label {
+  display: inline-block;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-form-field-radio
+  .totalpoll-form-field-label {
+  margin-right: calc(1em / 2);
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-form-field-radio
+  .totalpoll-form-field-label {
+  margin-left: calc(1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-checkbox
+  .totalpoll-form-field-label {
+  display: inline-block;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-form-field-checkbox
+  .totalpoll-form-field-label {
+  margin-right: calc(1em / 2);
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-form-field-checkbox
+  .totalpoll-form-field-label {
+  margin-left: calc(1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-form-field-hidden {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 calc(-1em / 2);
+  padding: 1em 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-buttons
+  > .totalpoll-button {
+  flex: 1;
+  margin: 0 calc(1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-transform: inherit;
+  text-align: center;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background: #eeeeee;
+  color: #333333;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15;
+  box-shadow: unset;
+  text-shadow: ;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  transition-property: background-color, border-color, color;
+  cursor: pointer;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button:hover,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button:focus,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button:active {
+  background: #dddddd;
+  color: #333333;
+  border-color: #dddddd;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button-primary {
+  background: #1a5283;
+  color: #0c71c3;
+  border-color: #1a5283;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button-primary:hover,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button-primary:focus,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button-primary:active {
+  background: #1a5283;
+  color: #0c71c3;
+  border-color: #1a5283;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-button
+  [disabled] {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background: unset;
+  color: inherit;
+  border-color: unset;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15;
+  box-shadow: unset;
+  margin-bottom: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-error {
+  background: #fb8c00;
+  color: #ffffff;
+  border-color: #f57c00;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-error
+  a {
+  color: #ffffff;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-success {
+  background-color: #e3f5e3;
+  color: #1a661a;
+  border-color: #c6eac6;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-success
+  a {
+  color: #1a661a;
+  text-decoration: underline;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-warning {
+  background-color: #fff6df;
+  color: #c1780a;
+  border-color: #ffdf9e;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-warning
+  a {
+  color: #c1780a;
+  text-decoration: underline;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-info {
+  background-color: #cbebf7;
+  color: #1a5266;
+  border-color: #52889c;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message-info
+  a {
+  color: #1a5266;
+  text-decoration: underline;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message
+  P:first-child {
+  margin-top: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-message
+  p:last-child {
+  margin-bottom: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-embed-container
+  iframe,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-embed-container
+  object,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-embed-container
+  embed {
+  vertical-align: middle;
+  height: 100%;
+  min-height: 270px;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item
+  .totalpoll-embed-container {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4em;
+  padding: 1em;
+  border: 1px solid "colors.grayLight";
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service {
+  flex: 1;
+  padding: 1em;
+  opacity: 0.85;
+  line-height: 0;
+  text-align: center;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-share-service
+  + .totalpoll-share-service {
+  margin-left: 1em;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-share-service
+  + .totalpoll-share-service {
+  margin-right: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service:hover,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service:focus {
+  opacity: 1;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service-facebook {
+  background: #3b5998;
+  color: white;
+  fill: white;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service-twitter {
+  background: #1da1f2;
+  color: white;
+  fill: white;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-share-service-pinterest {
+  background: #bd081c;
+  color: white;
+  fill: white;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-buttons {
+  justify-content: flex-end;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-buttons
+  > .totalpoll-button {
+  flex: 0 0 auto;
+}
+@-webkit-keyframes votesBar {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@-moz-keyframes votesBar {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@-o-keyframes votesBar {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes votesBar {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-questions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 calc(-1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question {
+  padding: 0 calc(1em / 2);
+  margin-bottom: 1em;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+    .totalpoll-question {
+    width: calc(100% / 1);
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-container {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  padding-top: unset;
+  padding-right: unset;
+  padding-bottom: unset;
+  padding-left: unset;
+  border-width: ;
+  border-style: ;
+  border-radius: ;
+  border-color: unset;
+  background: unset;
+  color: #333333;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-number {
+  line-height: 1;
+  margin-top: 1em;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-question-number {
+  text-align: right;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-question-number {
+  text-align: left;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-content {
+  margin-bottom: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: calc(-1em / 2);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item {
+  position: relative;
+  padding: calc(1em / 2);
+  width: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+}
+@media (min-width: 768px) {
+  div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+    .totalpoll-question-choices-item {
+    width: calc(100% / 4);
+  }
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item:last-child {
+  margin-bottom: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item:hover
+  .totalpoll-question-choices-item-control,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item:focus
+  .totalpoll-question-choices-item-control {
+  background: #eeeeee;
+  border-color: #dddddd;
+  color: unset;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-container {
+  border-radius: ;
+  background: unset;
+  color: unset;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-votes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 70%;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: inherit;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-votes-bar {
+  height: 6px;
+  border-radius: ;
+  background: #1a5283;
+  background: -moz-linear-gradient(left, #1a5283 0%, #1a5283 100%);
+  background: -webkit-linear-gradient(left, #1a5283 0%, #1a5283 100%);
+  background: linear-gradient(to right, #1a5283 0%, #1a5283 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5283",endColorstr="#1a5283",GradientType=1);
+  transform: scaleX(0);
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  -webkit-animation: votesBar 1000ms ease-in-out forwards;
+  -moz-animation: votesBar 1000ms ease-in-out forwards;
+  -ms-animation: votesBar 1000ms ease-in-out forwards;
+  -o-animation: votesBar 1000ms ease-in-out forwards;
+  animation: votesBar 1000ms ease-in-out forwards;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-question-choices-item-votes-bar {
+  transform-origin: left center;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-question-choices-item-votes-bar {
+  transform-origin: right center;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-votes-text {
+  opacity: 0.75;
+  font-size: 80%;
+  line-height: 1;
+  -webkit-animation: votesBar 1000ms ease-in-out forwards;
+  -moz-animation: votesBar 1000ms ease-in-out forwards;
+  -ms-animation: votesBar 1000ms ease-in-out forwards;
+  -o-animation: votesBar 1000ms ease-in-out forwards;
+  animation: votesBar 1000ms ease-in-out forwards;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-question-choices-item-votes-text {
+  margin-left: 1em;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-question-choices-item-votes-text {
+  margin-right: margin-right;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-votes-text.is-zero {
+  margin: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content
+  img,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content
+  video,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content
+  audio {
+  max-width: 100%;
+  border-radius: 15;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content
+  .totalpoll-embed-container {
+  display: block;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-content
+  .totalpoll-modal-open
+  + .totalpoll-embed-container {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-control {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: ;
+  border-color: #eeeeee;
+  background: #fafafa;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-label {
+  position: relative;
+  flex: 1;
+  padding-top: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 0.75em;
+  cursor: pointer;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-label-back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-question-choices-item-label-back {
+  left: 0;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-question-choices-item-label-back {
+  right: right;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-label-front {
+  position: relative;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-ltr
+  .totalpoll-question-choices-item-selector {
+  padding-left: 0.75em;
+}
+div[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]#totalpoll.totalpoll-wrapper.is-rtl
+  .totalpoll-question-choices-item-selector {
+  padding-right: padding-right;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector
+  > * {
+  margin: 0;
+  padding: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector
+  input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector-box {
+  display: flex;
+  flex-direction: column;
+  width: 1.2em;
+  height: 1.2em;
+  padding: 3px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: #0c71c3;
+  border-color: #dddddd;
+  background: rgba(255, 255, 255, 0.75);
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector-box
+  svg {
+  max-width: 100%;
+  max-height: 100%;
+  transform-origin: center;
+  transform: scale(0);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector
+  input:checked
+  + .totalpoll-question-choices-item-selector-box {
+  border-color: #0c71c3;
+  fill: #0c71c3;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-selector
+  input:checked
+  + .totalpoll-question-choices-item-selector-box
+  svg {
+  transform: scale(1);
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-html
+  .totalpoll-question-choices-item-content {
+  display: block;
+  padding: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-other {
+  width: 100%;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-other
+  .totalpoll-question-choices-item-selector {
+  display: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-other
+  .totalpoll-question-choices-item-control {
+  background: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-other
+  .totalpoll-question-choices-item-label {
+  padding: 0;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-type-other
+  .totalpoll-question-choices-item-label
+  input {
+  width: 100%;
+  border: none;
+  padding: 1em;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-checked
+  .totalpoll-question-choices-item-control,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-checked:hover
+  .totalpoll-question-choices-item-control,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-checked:focus
+  .totalpoll-question-choices-item-control {
+  background: #1a5283;
+  color: #0c71c3;
+  border-color: #1a5283;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled
+  .totalpoll-question-choices-item-selector,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled:hover
+  .totalpoll-question-choices-item-selector,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled:focus
+  .totalpoll-question-choices-item-selector,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled
+  .totalpoll-question-choices-item-label,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled:hover
+  .totalpoll-question-choices-item-label,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-disabled:focus
+  .totalpoll-question-choices-item-label {
+  cursor: not-allowed !important;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results
+  .totalpoll-question-choices-item-label,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results:hover
+  .totalpoll-question-choices-item-label,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results:focus
+  .totalpoll-question-choices-item-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  cursor: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: ;
+  border-color: #eeeeee;
+  background: #fafafa;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results
+  .totalpoll-question-choices-item-container,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results:hover
+  .totalpoll-question-choices-item-container,
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-question-choices-item-results:focus
+  .totalpoll-question-choices-item-container {
+  border-color: #eeeeee;
+  background: unset;
+  color: unset;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-modal-open:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: none,
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'%3e%3cdefs%3e%3cpath id='a' d='M0 0h24v24H0z'/%3e%3c/defs%3e%3cclipPath id='b'%3e%3cuse xlink:href='%23a' overflow='visible'/%3e%3c/clipPath%3e%3cpath clip-path='url(%23b)' fill='%23ffffff' d='M15 3l2.3 2.3-2.89 2.87 1.42 1.42L18.7 6.7 21 9V3zM3 9l2.3-2.3 2.87 2.89 1.42-1.42L6.7 5.3 9 3H3zm6 12l-2.3-2.3 2.89-2.87-1.42-1.42L5.3 17.3 3 15v6zm12-6l-2.3 2.3-2.87-2.89-1.42 1.42 2.89 2.87L15 21h6z'/%3e%3cpath clip-path='url(%23b)' fill='none' d='M0 0h24v24H0z'/%3e%3c/svg%3e");
+  background-color: rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  background-size: 0;
+  opacity: 0;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-modal-open:hover:after {
+  opacity: 1;
+  background-size: 36px;
+}
+div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"]
+  .totalpoll-embed-type-audio {
+  margin: 1em;
+}
+
+.totalpoll-question-content,
+.solution {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0;
+  padding: 0 0;
+  padding: 5px 5px !important;
+  border: 1px solid black !important;
+}
+
+.solution {
+  width: 100%;
+  margin-bottom: 5px !important;
+  padding: 0px 20px !important;
+}
+
+.totalpoll-question-content > .title {
+  font-size: 1.3em !important;
+  font-weight: bold !important;
+}
+
+.totalpoll-question-container {
+  margin-bottom: 0px !important;
+}
+
+/* .totalpoll-question-choices-item-label {
+  margin-bottom: 0px !important;
+} */
