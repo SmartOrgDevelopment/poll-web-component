@@ -1007,20 +1007,9 @@
   <script>
     const form = document.getElementById("totalpoll-poll-16879");
     const questions = document.querySelectorAll(".totalpoll-question");
-    // console.log(questions);
 
     const blockquotes = form.querySelectorAll("blockquote");
-    // console.log("blockquotes:");
-    // console.log(blockquotes);
-
     blockquotes.forEach((e) => e.classList.add("hidden"));
-
-    // const questionContent = [];
-
-    // document.querySelectorAll(".totalpoll-question-content").forEach((e) => {
-    //   questionContent.push(e.innerText);
-    // });
-    // console.log(questionContent);
 
     const radios = document.querySelectorAll("input[type='radio']");
     console.log(radios);
@@ -1028,30 +1017,23 @@
       console.log(i, e, e.value);
     });
 
-    // radios.forEach((e) => {
-    //   e.addEventListener("change", (ev) => {
-    //     console.log("Change: ", ev);
-    //     console.log(
-    //       ev.target.parentNode.parentNode.querySelector(
-    //         ".totalpoll-question-choices-item-label"
-    //       ).innerText
-    //     );
-    //   });
-    // });
-
     form.addEventListener("submit", (e) => {
+      // prevent default behaviour when Submit is clicked.  Need to deal with calling the AJAX call to the database in the real site
       event.preventDefault();
       console.log("submit clicked");
-      // console.log(e.target);
+
       // Make sure all solutions are hidden
       blockquotes.forEach((e) => e.classList.add("hidden"));
 
+      // Unhide the Reset button.
       const resetBtn = document.querySelector(".totalpoll-buttons-reset");
       resetBtn.classList.remove("hidden");
 
+      // Hide the Vote button
       const voteBtn = document.querySelector(".totalpoll-buttons-vote");
       voteBtn.classList.add("hidden");
 
+      // Find all the radio buttons that are checked and then unhide the corresponding question solutions
       console.log("Radio buttons checked:");
       radios.forEach((e, i) => {
         if (e.checked) {
@@ -1078,26 +1060,6 @@
 
         radios.forEach((e) => (e.checked = false));
       });
-
-      console.log();
-
-      // const data = new FormData(event.target);
-      // const dataObject = Object.fromEntries(data.entries());
-      // // console.log(formData.getAll(data));
-      // console.log(typeof dataObject);
-      // console.log(dataObject);
-
-      // console.log(Object.keys(dataObject));
-      // for (const key of data.keys()) {
-      //   console.log("Key:", key);
-      // }
-
-      // for (const value of data.values()) {
-      //   console.log("Value:", value);
-      // }
-      // Object.keys(dataObject).forEach((e, i) => {
-      //   console.log(i, e);
-      // });
     });
   </script>
 </html>

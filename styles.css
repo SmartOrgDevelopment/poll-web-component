@@ -1437,6 +1437,7 @@ div#totalpoll.totalpoll-wrapper[totalpoll-uid="e9e629c95e1d13fddf59691bc0df623f"
   margin: 1em;
 }
 
+/* Dave's added CSS */
 .totalpoll-question-content,
 .solution {
   display: flex;
